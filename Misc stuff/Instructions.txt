@@ -10,7 +10,8 @@ we want to put what we do in other formats like a website, etc.)
 
 So here is how we do it (text me at any point if you have questions):
 
-1. Go to https://github.com/signup/free and create an account. Then click on "Set Up Git". 
+1. Go to https://github.com/signup/free and create an account ***Actually, I just remembered;
+you already have an account called "Saronce"***. So log in. Then click on "Set Up Git". 
 Then click the green button that says "Download GitHub for Windows". Open the file that 
 was downloaded and install GitHub.
 
@@ -56,4 +57,11 @@ click on the little arrows if you want and it will show you exactly what was cha
 file. On the right there will be a yellow box labeled "uncommited changes". So to save what 
 you just did to the internet where I can see it, etc, simply write a short message about what
 you did (for example: "added pictures of childhood teddy bears" or whatever) and then press
-"COMMIT". 
+"COMMIT". Now click "sync" at the top. It will take a little while but as soon as there are 
+no "unsynced commits" (on the right of the screen) then all of your changes have been published
+to the internet!!! 
+
+*And you can do this part as often as you want. Dont wait until you've got a "final draft" 
+ready or whatever, otherwise I won't be able to see what you're doing. 
+
+8. So to see what I have done click "sync 
