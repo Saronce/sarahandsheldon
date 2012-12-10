@@ -1,0 +1,59 @@
+So GitHub seems like the best way for us to work on this together. Don't worry, you won't have 
+to learn anything or do anything complicated... I'll tell you exactly how to get it set up and 
+use it. I know it looks really long, but it's easy, trust me! 
+
+Also anything relevant that you send me by email, facebook, letter etc. I can put on GitHub for 
+you. We could also record audio conversations and put those on there. We could also do like
+I did for my "Forest Journal" and just scan handwritten sheets. But for the most part I think 
+it will be easiest to just write text documents on GitHub (this will also make it easier if 
+we want to put what we do in other formats like a website, etc.)
+
+So here is how we do it (text me at any point if you have questions):
+
+1. Go to https://github.com/signup/free and create an account. Then click on "Set Up Git". 
+Then click the green button that says "Download GitHub for Windows". Open the file that 
+was downloaded and install GitHub.
+
+2.Once its done it should open up GitHub in a new window automatically, it might take a minute
+or two. Once GitHub is set up and you have logged in switch to your internet browser and
+go to https://github.com/Sheldonfrith/sarahandsheldon and click "Fork" at the top right of the 
+page. It will then take you to a page called "yourusername"/sarahandsheldon. You can look around 
+here if you want to but you pretty much don't need to worry about this page if you don't want
+to.
+
+3.Now switch back to the "GitHub" application that you set up earlier (if it is gone there 
+should be a "GitHub" icon on your desktop). Now, in the "GitHub" application, click on "refresh"
+in the top middle of the screen.You should now see the "Repository" (dont worry about what a 
+repository is) called "yourusername"/sarahandsheldon. Click on it and then "clone" it (there 
+should be a "clone" button next to its name). After you clone it it should show up under the 
+"local" heading (on the left). Double click on this one to open the repository.
+
+4. So now you are in the main screen for our project. You only have to "clone" it the first time
+so all you really have to do is double click on its name once the program starts up from now on.
+The next thing you should do is click "sync" (at the top) if it is available. This will make sure
+your copy is the same as my copy so you can see what I have done so far. Now to actually start
+doing things, haha!
+
+5. While in this screen click on "Tools" at the top and then from the drop down menu click on
+"open in explorer". This will open a new window showing all the files that our in our project.
+These files work like any other files on your computer and can be edited and accessed in 
+the exact same way. You will see a file called ".gitignore" and ".gitattributes" (and
+maybe a folder called ".git") don't worry about any of these and don't do anything to them. 
+They are just there so that the software works right and have nothing to do with our 
+project. 
+
+6. So now you can explore what has been done so far... check what is in the folders... 
+open up all the files, etc. This is where we edit the project and add stuff; I'll come
+back to that later. 
+
+*This next step only applies if you have actually changed something. If you just looked 
+around feel free to close "GitHub" right away. 
+
+7. After you have done everything you want to the project (make sure you've saved any 
+files you changed) go back to the "GitHub" application. On the left side of the screen, under
+"# files to be commited" you will see any files you changed listed labeled as "new". You can 
+click on the little arrows if you want and it will show you exactly what was changed in the 
+file. On the right there will be a yellow box labeled "uncommited changes". So to save what 
+you just did to the internet where I can see it, etc, simply write a short message about what
+you did (for example: "added pictures of childhood teddy bears" or whatever) and then press
+"COMMIT". 
