@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Example (macawpage1).md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body{
+    margin: 0 auto;
+    font-family: Georgia, Palatino, serif;
+    color: #444444;
+    line-height: 1;
+    max-width: 960px;
+    padding: 5px;
+}
+h1, h2, h3, h4 {
+    color: #111111;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 16px;
+    padding: 0;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 22px;
+    margin: 20px 0 6px;
+}
+h3 {
+    font-size: 21px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+a {
+    color: #0099ff;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+a:visited {
+    color: purple;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+li {
+    line-height: 24px;
+    margin-left: 44px;
+}
+li ul, li ul {
+    margin-left: 24px;
+}
+p, ul, ol {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 540px;
+}
+pre {
+    padding: 0px 24px;
+    max-width: 800px;
+    white-space: pre-wrap;
+}
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 13px;
+}
+aside {
+    display: block;
+    float: right;
+    width: 390px;
+}
+blockquote {
+    border-left:.5em solid #eee;
+    padding: 0 2em;
+    margin-left:0;
+    max-width: 476px;
+}
+blockquote  cite {
+    font-size:14px;
+    line-height:20px;
+    color:#bfbfbf;
+}
+blockquote cite:before {
+    content: '\2014 \00A0';
+}
+
+blockquote p {  
+    color: #666;
+    max-width: 460px;
+}
+hr {
+    width: 540px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button, input {
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type=checkbox], input[type=radio] {
+  cursor: pointer;
+}
+/* override default chrome & firefox settings */
+input:not([type="image"]), textarea {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+label,
+input,
+select,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+input[type=checkbox], input[type=radio] {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+input[type=text],
+input[type=password],
+textarea,
+select {
+  display: inline-block;
+  width: 210px;
+  padding: 4px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  height: 18px;
+  color: #808080;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+select, input[type=file] {
+  height: 27px;
+  line-height: 27px;
+}
+textarea {
+  height: auto;
+}
+
+/* grey out placeholders */
+:-moz-placeholder {
+  color: #bfbfbf;
+}
+::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+input[type=text],
+input[type=password],
+select,
+textarea {
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+  outline: none;
+  border-color: rgba(82, 168, 236, 0.8);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+/* buttons */
+button {
+  display: inline-block;
+  padding: 4px 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #0064cd;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
+  background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -ms-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
+  background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -o-linear-gradient(top, #049cdb, #0064cd);
+  background-image: linear-gradient(top, #049cdb, #0064cd);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #004b9a;
+  border-bottom-color: #003f81;
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+  border-color: #0064cd #0064cd #003f81;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+button:hover {
+  color: #fff;
+  background-position: 0 -15px;
+  text-decoration: none;
+}
+button:active {
+  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* CSS stylesheet is based on Kevin Burke's Markdown.css project (http://kevinburke.bitbucket.org/markdowncss) */
+</style>
+</head>
+<body>
+<!-- 
+HEY SARAH!!! THIS IS A "COMMENT", IT DOES NOT APPEAR IN THE "VIEWED" VERSION OF THIS FILE. IT IS A GOOD WAY OF LEAVING YOURSELF NOTES LIKE: "I'm not sure about this part of the text... I should come back and edit it later." GET THE IDEA?
+TO WRITE A "COMMENT", AS OPPOSED TO WRITING NORMALLY, SIMPLY TYPE THE CHARACTERS "<!--", TYPE YOUR COMMENT, AND THEN TYPE "- - >" (but without the spaces) TO END THE COMMENT. ANYTHING AT ALL THAT IS IN BETWEEN "<!--" and "- - >" (without the spaces) IS CONSIDERED A COMMENT AND WILL NOT BE SHOWN IN A BROWSER.
+
+BELOW YOU CAN SEE TWO EXAMPLES OF PICTURES I HAVE ADDED BY COPY/PASTING FROM FLICKR.
+
+I THINK THAT IT WOULD BE A GOOD IDEA IF WE BOTH WORKED ON THE SAME DOCUMENTS BUT DIFFERENTIATED OUR INDIVIDUAL CONTRIBUTIONS SOMEHOW.... MY IDEA WAS THAT WE WILL EACH USE OUR OWN COLOR OF TEXT FOR EVERYTHING THAT WE WRITE. WE CAN ALSO SIGN WHAT WE WRITE WITH "-SHELDON" or "-SARAH" AT THE END OF IT. 
+
+I HAVE CHOSEN "darkgreen" AS MY COLOUR, HOPEFULLY YOU DON'T MIND? TO MAKE A PIECE OF TEXT A DIFFENT COLOUR YOU HAVE TO PUT A SPECIAL "TAG" AT THE BEGINNING OF THE PIECE OF TEXT AND THEN ANOTHER "TAG" AT THE END (THE SAME IDEA AS FOR "COMMENTS"). AT THE BEGINNING OF YOUR SECTION OF TEXT WRITE <font color="yourchosencolor"> AND AT THE END WRITE </font> .... THATS ALL THERE IS TO IT. CALL ME IF YOU WANT HELP.
+
+PS. Remember to try "f6"
+-->
+
+<p><a href="http://www.flickr.com/photos/91028721@N08/8261736661/" title="Macaw Scrapbook1 by Sheldonfrith, on Flickr"><img src="http://farm9.staticflickr.com/8082/8261736661_945b75f5e7_b.jpg" width="789" height="1024" alt="Macaw Scrapbook1"></a></p>
+
+<p><font color="darkgreen">This is the <strong>first page</strong> from a shiny green scrapbook of mine that has a macaw on the front (henceforth refered to as the "<strong>macaw scrapbook</strong>"). </p>
+
+<p>The top picture is a view up the hill from our house (roughly east, so I guess its a <strong>sun<em>rise</em></strong>). In the middle of the picture you can see white goal-posts; that was our soccer field. The prominent palm tree is actually a coconut tree... although I don't ever remember actually getting any coconuts from it. </p>
+
+<p>The bottom picture is hard to make out, but it is a view in the opposite direction. The picture taker is standing on the road in front of our house looking west at the <strong>sun<em>set</em></strong>. Those very vague houses you can kind of make out right in the middle were the "Indian Houses" (except for the larger one on the left which was an abandoned old library). Yes... We called the Native People <em>Indians</em>. We didn't think it was rude. I don't really feel bad about it. Oh that reminds me: We used to call our house the "White House" (because it was painted white). <strong>How many people can truthfully say that they grew up in the White House?</strong> Haha. </p>
+
+<p>-Sheldon</p>
+
+<p>Heres a little map - "a la" Google Earth - to help you orient yourself:</font>
+<a href="http://www.flickr.com/photos/91028721@N08/8261815409/" title="labeledpvhcloseup by Sheldonfrith, on Flickr"><img src="http://farm9.staticflickr.com/8354/8261815409_af525cf110.jpg" width="500" height="312" alt="labeledpvhcloseup"></a></p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
