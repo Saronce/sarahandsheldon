@@ -15,6 +15,15 @@ PS. Remember to try "f6"
 Hey Sarah, I really like what you wrote! Reading it has given me some ideas... I noticed that you really went off about a lot of things just from those two simple pictures. Its great to just write whatever comes to you! But I think that we need a way of keeping it a bit more organised since it will probably get pretty big, pretty fast. So what we can do I think is put a little comment after each paragraph with some keywords about the topic you are talking about and maybe the year that we are talking about... I have done it to this document to show you what I mean... This will allow us to search through all of the stuff later and find, for example, everything we have written about that forest fire, etc.
 
 PS. I fixed a spelling mistake of yours... lets agree to do this whenever we notice one, since were not really changing what the other person is saying in any way (as opposed to changing sentence structure or something like that). 
+
+
+
+HEY SHELDON 
+
+Please do fix my spelling mistakes! 
+And teach me how to tag the stories because I certainly will always be able to add a long story to even the simple-est of pictures. If I have a better picture, can we replace the first two?
+
+We should make a limit on how many times each of us can write per page. Because I want to just keep commenting on what you've written! So how about if we each get to go to the page and write something twice. So, for example this page would then be done. I look forward to organizing everything kind of like a file folder!
 --> 
 
 <a href="http://www.flickr.com/photos/91028721@N08/8261736661/" title="Macaw Scrapbook1 by Sheldonfrith, on Flickr"><img src="http://farm9.staticflickr.com/8082/8261736661_945b75f5e7_b.jpg" width="789" height="1024" alt="Macaw Scrapbook1"></a>
@@ -56,3 +65,5 @@ I know exactly what you mean Sarah, its funny; I can hear "the sound of that red
 <a href="http://www.flickr.com/photos/91028721@N08/8261815409/" title="labeledpvhcloseup by Sheldonfrith, on Flickr"><img src="http://farm9.staticflickr.com/8354/8261815409_af525cf110.jpg" width="500" height="312" alt="labeledpvhcloseup"></a>
 
 PS. A sad fact I realized while making this map: The three houses I have labelled are the **only houses that I could remember who lived in them**. <!-- terrible grammar, fix later --> Except for the white roofed house in the top right corner (which I remember had airconditioning and an old lady) I actually have no memory of the unlabelled houses even *BEING THERE*.... Except that they are there **-- I remember them -- *in my dreams*...** <!-- memory loss, dream, 2012 -->
+
+<font color="blue">I barely remembered that those houses were there too! But I also **dream about them often**. I think they both had circle driveways, and rarely had people living in them. The house with the white roof had two floors. The tree in its yard closest to the road got **hit by lightning and started on fire**. Ever since that tree started on fire I have had a reaccuring dream about the white roofed house. Its stilts elevate it way **above the tree tops**, outside all you can see are trees. And it is constantly pouring rain. The water level is almost to the top of the trees. I am always injured, and wake up on the floor of the house with a man who tells me that we are the last two people in the world. I'm **emberassed** to admit this dream because it usually turns into a romance story. But I dream it at least **three times a year** so it must be relevant.
