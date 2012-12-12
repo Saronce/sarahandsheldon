@@ -1,0 +1,5 @@
+git checkout master
+git remote add Sheldonfrith git://github.com/Sheldonfrith/sarahandsheldon.git
+git fetch Sheldonfrith
+git merge Sheldonfrith/master
+git push origin master
